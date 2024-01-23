@@ -1,0 +1,74 @@
+.background {
+   
+    position: fixed;
+        left: -0.1%;
+        top: -0.1%;
+        width: 100%;
+        height: 100%;
+    }
+   
+    .girl {
+        position: absolute;
+        width: 40%;
+        height: 70%;
+        bottom: -1%;
+        left: 0%;
+        animation: girlmoves 10s linear infinite;
+        z-index: 2;
+    } 
+    .girl2 {
+        position: absolute;
+        width: 55%;
+        height: 55%;
+        bottom: -1%;
+        left: -30%;
+        animation: girlmoves2 10s linear infinite;
+    } 
+        
+    @keyframes girlmoves {
+        from {right: 0px;}
+        to { left: 50%;}
+    }
+    @keyframes girlmoves2 {
+        from {right: 0px;}
+        to { left: 50%;}
+    }
+    
+      .animation {
+        position: absolute;
+        animation: animation 10s linear infinite;
+      }
+    
+    #slide-in {
+        text-align: right;
+        font-size: 26px;
+        font-style: bold;
+        color: rgb(54, 2, 65);
+        bottom: 40%;
+        right: 40%;
+      }
+      #slide-in2 {
+        text-align: right;
+        font-size: 26px;
+        font-style: bold;
+        color: rgb(87, 3, 90);
+        bottom: 50%;
+        right: 40%;
+      }
+    
+    @keyframes animation {
+        0% {
+          opacity: 0;
+          right: 0px;
+        }
+    
+        100% {
+          opacity: 1;
+          right: 20px;
+        }
+      } 
+      @keyframes h4me {
+        from {right: 0px;}
+        to { left: 63%;}
+    }
+      

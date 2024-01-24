@@ -36,6 +36,7 @@ position: fixed;
 	left: 0%;
 	animation: girlmoves 10s linear infinite;
 	z-index: 2;
+	display: inline;
 } 
 .girl2 {
 	position: absolute;

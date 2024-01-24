@@ -1,15 +1,24 @@
-body, html {
-	height: 100%;
-  }
+
+	body, html {
+		margin: 0;
+		padding: 0;
+		height: 100vh;
+		background: url('/images/13510.PNG') center / cover no-repeat;
+		/* display: flex; */
+		justify-content: center;
+		align-items: center;
+		overflow: hidden;
+	  }
   
-.background {
+  
+/* .background {
 height:100%;
 width:100%;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 
-}
+} */
 /* background-repeat: no-repeat;
 background-size:cover;
 background-position:center;
@@ -38,15 +47,13 @@ position: fixed;
 	z-index: 2;
 	display: inline;
 } 
-.girl2 {
+/* .girl2 {
 	position: absolute;
 	width: 55%;
 	height: 55%;
 	bottom: -1%;
 	left: -30%;
-	animation: girlmoves2 2s linear infinite;
-} 
-	
+	animation: girlmoves2 2s linear infinite; */	
 @keyframes girlmoves {
 	from {right: 0px;}
 	to { left: 50%;}
@@ -91,6 +98,6 @@ position: fixed;
   } 
   @keyframes h4me {
 	from {right: 0px;}
-	to { left: 63%;}
+	to { left: 80%;}
 }
   

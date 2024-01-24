@@ -34,7 +34,7 @@ position: fixed;
 	height: 55%;
 	bottom: -1%;
 	left: -30%;
-	animation: girlmoves2 10s linear infinite;
+	animation: girlmoves2 2s linear infinite;
 } 
 	
 @keyframes girlmoves {

@@ -47,7 +47,7 @@ position: fixed;
 }
 
   .animation {
-	position: absolute;
+	position: relative;
 	animation: animation 10s linear infinite;
   }
 

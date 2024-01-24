@@ -1,17 +1,26 @@
+body, html {
+	height: 100%;
+  }
+  
 .background {
-/* height:100%;
+height:100%;
 width:100%;
+background-position: center;
 background-repeat: no-repeat;
+background-size: cover;
+
+}
+/* background-repeat: no-repeat;
 background-size:cover;
 background-position:center;
 position: relative;
-background-attachment:scroll; */
+background-attachment:scroll;
 position: fixed;
     left: -0.1%;
     top: -0.1%;
     width: 100%;
-    height: 100%;
-}
+    height: 100%; */
+
 /* html { 
 	background: url(images/Wallpaper1.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
